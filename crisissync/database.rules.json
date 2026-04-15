@@ -1,0 +1,26 @@
+{
+  "rules": {
+    "sos": {
+      ".read":  "auth != null",
+      ".write": "auth != null"
+    },
+    "chats": {
+      ".read":  "auth != null",
+      ".write": "auth != null"
+    },
+    "staff_presence": {
+      ".read":  "auth != null",
+      ".write": "auth != null"
+    },
+    "webrtc": {
+      ".read":  "auth != null",
+      ".write": "auth != null"
+    },
+    "walkie": {
+      "$channelId": {
+        ".read":  "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+}

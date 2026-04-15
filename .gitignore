@@ -1,0 +1,36 @@
+# Root .gitignore for SafeStay-admin
+
+# Workspace/IDE
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.sln
+*.sw?
+
+# Dependencies
+**/node_modules/
+
+# Logs and databases
+*.log
+logs/
+firebase-debug.log*
+firestore-debug.log*
+pubsub-debug.log*
+ui-debug.log*
+
+# Build artifacts
+**/dist/
+**/dist-ssr/
+**/build/
+
+# Environment variables
+.env*
+
+# Local configuration
+*.local
+
+# OS related
+Thumbs.db
+ehthumbs.db
+Desktop.ini
